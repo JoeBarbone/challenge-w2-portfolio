@@ -10,7 +10,7 @@
     padding: 0;
 }
 
-.main-wrapper {
+.xmain-wrapper {
     border: 5px solid black;
     border-radius: 15px;
     padding: 10px;
@@ -24,12 +24,17 @@ header {
     padding: 25px;
 }
 
+/* was second/primary */
 header h1 {
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--text-color);
     padding: 15px 15px 15px 45px;
     position: relative;
     left: -25px;
+}
+
+.student-name a {
+    text-decoration: none;
 }
 
 header ul li {
@@ -182,12 +187,69 @@ section {
 }
 
 @media screen and (max-width: 768px) {
+    /* .header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    } */
+
     .work-secondary-site {
         width: 100%;
     }
 }
 
 @media screen and (max-width: 575px) {
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        xjustify-content: space-evenly;
+        margin: 0;
+        padding: 0;
+        border: 10px solid yellow;
+    }
+
+    .student-name h1 {
+        text-align: center;
+        color: black;
+    }
+
+    header h1 {
+        border: 1px solid orange;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    header nav {
+        text-align: center;
+        border: 1px solid red;
+    }
+
+    header nav ul {
+        text-align: center;
+    }
+    
+    .hero h1 {
+        font-size: 1em;
+    }
+
+    /* section style */
+section {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+/* article style */
+.article-title {
+    text-align: center;
+    font-size: 48px;
+    xflex: 1 30%;
+    margin-bottom: 20px;
+    border-right: none;
+    border-bottom: 5px solid var(--secondary-color);
+}
+
     .work-secondary-site {
         width: 100%;
     }

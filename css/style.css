@@ -200,29 +200,16 @@ section {
 
 @media screen and (max-width: 575px) {
     header {
-        display: flex;
-        flex-wrap: wrap;
-        xjustify-content: space-evenly;
         margin: 0;
         padding: 0;
-        border: 10px solid yellow;
     }
 
     .student-name h1 {
-        text-align: center;
-        color: black;
-    }
-
-    header h1 {
-        border: 1px solid orange;
-        margin: 0;
-        padding: 0;
         text-align: center;
     }
 
     header nav {
         text-align: center;
-        border: 1px solid red;
     }
 
     header nav ul {
@@ -234,23 +221,29 @@ section {
     }
 
     /* section style */
-section {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 20px 0;
-}
-
-/* article style */
-.article-title {
-    text-align: center;
-    font-size: 48px;
-    xflex: 1 30%;
-    margin-bottom: 20px;
-    border-right: none;
-    border-bottom: 5px solid var(--secondary-color);
-}
-
-    .work-secondary-site {
-        width: 100%;
+    section {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20px 0;
     }
+
+    /* article style */
+    .article-title {
+        text-align: center;
+        font-size: 48px;
+        xflex: 1 30%;
+        margin-bottom: 20px;
+        border-right: none;
+        border-bottom: 5px solid var(--secondary-color);
+    }
+
+    .contact-me {
+        display: block;
+        text-align: center;
+    }
+
+    .contact-me p {
+        padding: 10px 0;
+    }
+
 }

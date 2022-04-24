@@ -63,7 +63,7 @@ header ul li a:hover {
     bottom: 10px;
     right: 10px;
     background-color: var(--primary-color);
-    color: var(--secondary-color);
+    color: var(--text-color);
     padding: 10px 20px;
 }
 
@@ -92,8 +92,30 @@ section {
 }
 
 .feature-site {
-    border: 10px solid var(--primary-color)
+    border: 10px solid var(--primary-color);
+    position: relative;
 }
+
+.feature-site-label {
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    padding: 10px 20px;
+}
+
+
+
+.site-label-primary {
+    font-size: 1.8em;
+}
+
+.site-label-secondary {
+    font-size: 1.2em;
+}
+
+
 
 .work-projects {
     padding: 0 20px;
@@ -105,6 +127,11 @@ section {
 
 .site-img {
     width: 100%;
+    opacity: 50%;
+}
+
+.site-img:hover {
+    opacity: 100%;
 }
 
 .work-secondary-sites {
@@ -119,9 +146,48 @@ section {
     border: 10px solid var(--primary-color);
     margin-bottom: 20px;
     xflex: 1 40%;
+    position: relative;
 }
 
+.work-site-label {
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    padding: 10px 20px;
+}
+
+.contact-me {
+    display: flex;
+    margin: 50px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-me a {
+    text-decoration: none;
+    color: var(--primary-color)
+}
+
+.contact-me p {
+    color: var(--primary-color)
+}
+
+
 @media screen and (max-width: 980px) {
+    .work-secondary-site {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .work-secondary-site {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 575px) {
     .work-secondary-site {
         width: 100%;
     }

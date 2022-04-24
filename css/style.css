@@ -71,6 +71,7 @@ header ul li a:hover {
 section {
     display: flex;
     margin: 50px;
+    xborder: 10px solid blue;
 }
 
 /* article style */
@@ -80,13 +81,48 @@ section {
     flex: 1 30%;
     padding-right: 20px;
     border-right: 5px solid var(--secondary-color);
+    xbox-sizing: border-box;
 }
 
 .article-text {
-    padding: 0 15px;
+    padding: 0 20px;
     font-family: arial;
     font-size: 22px;
     flex: 1 70%;
 }
 
+.feature-site {
+    border: 10px solid var(--primary-color)
+}
 
+.work-projects {
+    padding: 0 20px;
+    xfont-family: arial;
+    xfont-size: 22px;
+    flex: 1 70%;
+    xborder: 1px solid yellow;
+}
+
+.site-img {
+    width: 100%;
+}
+
+.work-secondary-sites {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 25px 0;
+}
+
+.work-secondary-site {
+    width: 47%;
+    border: 10px solid var(--primary-color);
+    margin-bottom: 20px;
+    xflex: 1 40%;
+}
+
+@media screen and (max-width: 980px) {
+    .work-secondary-site {
+        width: 100%;
+    }
+}

@@ -10,12 +10,13 @@
     font-family: arial;
 }
 
-.xmain-wrapper {
+/* .main-wrapper {
     border: 5px solid black;
     border-radius: 15px;
     padding: 10px;
-}
+} */
 
+/* header section styling */
 header {
     display: flex;
     justify-content: space-between;
@@ -24,7 +25,7 @@ header {
     padding: 25px;
 }
 
-/* was second/primary */
+
 header h1 {
     background-color: var(--primary-color);
     color: var(--text-color);
@@ -53,7 +54,7 @@ header ul li a:hover {
     color: var(--secondary-color);
 }
 
-/* Hero Image area */
+/* hero image section styling */
 .hero {
     height: 400px;
     background-image: url("../images/hero-img.jpg");
@@ -96,6 +97,7 @@ section {
     color: var(--secondary-color)
 }
 
+/* work section styling */
 .feature-site {
     border: 10px solid var(--primary-color);
     position: relative;
@@ -110,8 +112,6 @@ section {
     padding: 10px 20px;
 }
 
-
-
 .site-label-primary {
     font-size: 1.8em;
 }
@@ -119,8 +119,6 @@ section {
 .site-label-secondary {
     font-size: 1.2em;
 }
-
-
 
 .work-projects {
     padding: 0 20px;
@@ -147,7 +145,6 @@ section {
     width: 47%;
     border: 10px solid var(--primary-color);
     margin-bottom: 20px;
-    xflex: 1 40%;
     position: relative;
 }
 
@@ -160,6 +157,7 @@ section {
     padding: 10px 20px;
 }
 
+/* contact me styling */
 .contact-me {
     display: flex;
     margin: 50px 0;
@@ -172,15 +170,20 @@ section {
     color: var(--secondary-color)
 }
 
+.contact-me a:hover {
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--primary-color);
+}
+
 .contact-me p {
     color: var(--secondary-color)
 }
 
 
-
-/* Media Screen Sections */
+/* media screen sections */
 
 @media screen and (max-width: 1024px) {
+
     .work-secondary-site {
         width: 100%;
     }
@@ -202,7 +205,6 @@ section {
 
 @media screen and (max-width: 768px) {
     
-    /* section style */
     section {
         margin: 50px 25px;
     }
@@ -223,21 +225,21 @@ section {
 }
 
 @media screen and (max-width: 575px) {
+
+    /* header styling */
     header {
         margin: 0;
         padding: 0;
     }
 
     header ul li {
-        xlist-style: none;
-        xdisplay: inline;
-        xmargin: 25px;
-        font-size: 25px;
+        font-size: 20px;
+        line-height: 1.5;
     }
 
-    .student-name h1 {
+    /* .student-name h1 {
         text-align: center;
-    }
+    } */
 
     header nav {
         text-align: center;
@@ -267,6 +269,7 @@ section {
         border-bottom: 5px solid var(--secondary-color);
     }
 
+    /* contact me styling */
     .contact-me {
         display: block;
         text-align: center;

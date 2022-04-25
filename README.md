@@ -20,3 +20,26 @@ WHEN I click on the images of the applications
 THEN I am taken to that deployed application  
 WHEN I resize the page or view the site on various screens and devices  
 THEN I am presented with a responsive layout that adapts to my viewport  
+
+## Screenshots for Desktop View
+Top of site  
+![top of Joe Barbone's portfolio site](./images/screenshot-desktop-top.jpg)
+
+Middle of site  
+![middle of Joe Barbone's portfolio site](./images/screenshot-desktop-mid.jpg)
+
+Bottom of site  
+![bottom of Joe Barbone's portfolio site](./images/screenshot-desktop-bottom.jpg)
+
+## Screenshots for Mobile View
+Top of site  
+![top of Joe Barbone's portfolio site](./images/screenshot-mobile-top.jpg)
+
+Middle of site  
+![middle of Joe Barbone's portfolio site](./images/screenshot-mobile-mid.jpg)
+
+Bottom of site  
+![bottom of Joe Barbone's portfolio site](./images/screenshot-mobile-bottom.jpg)
+
+## Summary
+This site was created using HTML/CSS. The responsive design is obtained by using Flexbox and associated tags, elements, settings and values.

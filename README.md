@@ -43,3 +43,6 @@ Bottom of site
 
 ## Summary
 This site was created using HTML/CSS. The responsive design is obtained by using Flexbox and associated tags, elements, settings and values.
+
+## Live Site
+[Live Portfolio - Joseph Barbone](https://joebarbone.github.io/challenge-w2-portfolio)

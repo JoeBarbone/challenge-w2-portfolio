@@ -23,7 +23,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Screenshots for Desktop View
 Top of site  
-![top of Joe Barbone's portfolio site](./images/screenshot-desktop-top.jpg)
+![top of Joe Barbone's portfolio site](./images/screenshot-desktop-top-new.jpg)
 
 Middle of site  
 ![middle of Joe Barbone's portfolio site](./images/screenshot-desktop-mid.jpg)
@@ -33,7 +33,7 @@ Bottom of site
 
 ## Screenshots for Mobile View
 Top of site  
-![top of Joe Barbone's portfolio site](./images/screenshot-mobile-top.jpg)
+![top of Joe Barbone's portfolio site](./images/screenshot-mobile-top-new.jpg)
 
 Middle of site  
 ![middle of Joe Barbone's portfolio site](./images/screenshot-mobile-mid.jpg)

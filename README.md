@@ -48,3 +48,7 @@ Bottom of site
 This site was created using HTML/CSS. The responsive design is obtained by using Flexbox and associated tags, elements, settings and values.
 
 ---
+
+## Updates
+
+2022-05-06 Added Password Generator (modified version)

@@ -51,5 +51,6 @@ This site was created using HTML/CSS. The responsive design is obtained by using
 
 ## Updates
 
+2022-05-25 Added Weather App  
 2022-05-12 Added Code Quiz  
 2022-05-06 Added Password Generator (modified version)  
